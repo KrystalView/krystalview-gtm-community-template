@@ -1,0 +1,5 @@
+homepage: "https://krystalview.com"
+documentation: "https://krystalview.com/docs/gtm"
+versions:
+  - sha: TODO_REPLACE_WITH_TEMPLATE_COMMIT_SHA
+    changeNotes: Initial release.
