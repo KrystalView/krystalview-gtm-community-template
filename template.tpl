@@ -46,7 +46,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "signingKey",
     "displayName": "Signing key (optional)",
     "simpleValueType": true,
-    "help": "Optional HMAC signing key for beacon authenticity. NOTE: this value is read by the client-side tracker, which means it is visible to browser users and is not a true secret. Leave blank to skip HMAC signing — origin checks and rate limits remain the real security guards."
+    "help": "Optional HMAC signing key for beacon authenticity. NOTE: this value is read by the client-side tracker, which means it is visible to browser users and is not a true secret. Leave blank to skip HMAC signing - origin checks and rate limits remain the real security guards."
   },
   {
     "type": "TEXT",
@@ -212,7 +212,7 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 8,
-                    "boolean": true
+                    "boolean": false
                   },
                   {
                     "type": 8,
