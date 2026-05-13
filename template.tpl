@@ -115,14 +115,9 @@ const initConfig = {
 injectScript(
   SCRIPT_URL,
   function () {
-    try {
-      callInWindow('KrystalView.init', initConfig);
-      log('KrystalView initialized from GTM template');
-      data.gtmOnSuccess();
-    } catch (error) {
-      log('KrystalView init failed: ' + error);
-      data.gtmOnFailure();
-    }
+    callInWindow('KrystalView.init', initConfig);
+    log('KrystalView initialized from GTM template');
+    data.gtmOnSuccess();
   },
   function () {
     log('KrystalView script injection failed: ' + SCRIPT_URL);
