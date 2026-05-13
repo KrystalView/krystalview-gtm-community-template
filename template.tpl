@@ -35,12 +35,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "siteKey",
     "displayName": "Site key",
     "simpleValueType": true,
-    "help": "Your KrystalView site key",
-    "valueValidators": [
-      {
-        "type": "REQUIRED"
-      }
-    ]
+    "help": "Your KrystalView site key"
   },
   {
     "type": "TEXT",
