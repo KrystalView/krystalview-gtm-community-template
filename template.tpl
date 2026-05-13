@@ -42,15 +42,10 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "TEXT",
-    "name": "secretKey",
-    "displayName": "Secret key",
+    "name": "signingKey",
+    "displayName": "Signing key (optional)",
     "simpleValueType": true,
-    "help": "Your KrystalView secret key",
-    "valueValidators": [
-      {
-        "type": "REQUIRED"
-      }
-    ]
+    "help": "Optional HMAC signing key for beacon authenticity. NOTE: this value is read by the client-side tracker, which means it is visible to browser users and is not a true secret. Leave blank to skip HMAC signing — origin checks and rate limits remain the real security guards."
   },
   {
     "type": "TEXT",
@@ -108,7 +103,7 @@ const parseSampleRate = function (value) {
 
 const initConfig = {
   siteKey: data.siteKey,
-  secretKey: data.secretKey,
+  secretKey: data.signingKey,
   collectorUrl: data.collectorUrl || DEFAULT_COLLECTOR_URL,
   consentRequired: data.consentRequired !== false,
   maskAllInputs: data.maskAllInputs === true,

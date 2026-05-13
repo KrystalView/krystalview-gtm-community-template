@@ -11,7 +11,7 @@ Google Tag Manager Community Template Gallery package for loading `https://cdn.k
 ## Parameters
 
 - `Site key` - required KrystalView site key.
-- `Secret key` - required KrystalView secret key.
+- `Signing key (optional)` - optional HMAC signing key for beacon authenticity. NOTE: this value is read by the client-side tracker, so it is visible to browser users and is not a true secret. Leave blank to skip HMAC signing — origin checks and rate limits remain the real security guards.
 - `Collector URL` - optional collector endpoint override. Defaults to `https://collect.krystalview.com`.
 - `Require consent before recording` - enabled by default.
 - `Mask all input values` - optional masking toggle.
@@ -38,7 +38,7 @@ The template requests the minimum web-template permissions needed to run:
 
 1. Go to `Tags` -> `New`.
 2. Select `KrystalView Analytics` from custom templates.
-3. Fill in the required site and secret keys.
+3. Fill in the required site key. Leave the optional signing key blank unless you've configured your collector to require HMAC signatures.
 4. Keep `Require consent before recording` enabled unless your implementation has another consent gate.
 5. Set the trigger to `All Pages`.
 6. Preview, test, and publish the GTM container.
