@@ -15,10 +15,11 @@ ___INFO___
   "securityGroups": [],
   "displayName": "KrystalView Analytics",
   "description": "Load KrystalView analytics for session replay, heatmaps, and behavior insights.",
-  "categories": ["ANALYTICS", "SESSION_RECORDING", "HEAT_MAP"],
+  "categories": ["ANALYTICS"],
   "brand": {
     "id": "github.com_KrystalView",
-    "displayName": "KrystalView"
+    "displayName": "KrystalView",
+    "thumbnail": ""
   },
   "containerContexts": [
     "WEB"
