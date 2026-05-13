@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "KrystalView Analytics",
+  "__wm": "VGVtcGxhdGUtQXV0aG9yX0tyeXN0YWxWaWV3LUtyeXN0YWxWaWV3",
   "description": "Load KrystalView analytics for session replay, heatmaps, and behavior insights.",
   "categories": ["ANALYTICS"],
   "brand": {
