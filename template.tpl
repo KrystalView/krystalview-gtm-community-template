@@ -82,8 +82,8 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const injectScript = require('injectScript');
 const callInWindow = require('callInWindow');
-const log = require( ' logToConsole ' );
-const makeNumber = require( ' makeNumber ' );
+const log = require('logToConsole');
+const makeNumber = require('makeNumber');
 
 const SCRIPT_URL = 'https://cdn.krystalview.com/kv.js';
 const DEFAULT_COLLECTOR_URL = 'https://collect.krystalview.com';
