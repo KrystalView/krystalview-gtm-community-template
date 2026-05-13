@@ -1,5 +1,5 @@
 homepage: "https://krystalview.com"
 documentation: "https://krystalview.com/docs/gtm"
 versions:
-  - sha: 9d85bf545e2233707c13957ed898b432529e3b24
+  - sha: 5bf2e89fac7a8813705c120118ce4a264d2912bc
     changeNotes: Initial release with honest 'signingKey' optional param.
