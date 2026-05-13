@@ -10,14 +10,14 @@ ___INFO___
 
 {
   "type": "TAG",
-  "id": "krystalview_tracker",
+  "id": "cvt_KRVW1",
   "version": 1,
   "securityGroups": [],
   "displayName": "KrystalView Analytics",
   "description": "Load KrystalView analytics for session replay, heatmaps, and behavior insights.",
   "categories": ["ANALYTICS", "SESSION_RECORDING", "HEAT_MAP"],
   "brand": {
-    "id": "krystalview",
+    "id": "github.com_KrystalView",
     "displayName": "KrystalView"
   },
   "containerContexts": [
