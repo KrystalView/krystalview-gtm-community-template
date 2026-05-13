@@ -239,3 +239,8 @@ ___WEB_PERMISSIONS___
     "isRequired": true
   }
 ]
+
+
+___NOTES___
+
+KrystalView Analytics GTM Community Template.
